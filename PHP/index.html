@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Formulario de Registro</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+<div>
+	<form method="POST" action="form.php">
+		<h2>Formulario de Registro</h2>
+	  <label for="nombre">Nombre <span><em>(requerido)</em></span></label>
+	  <input type="text" name="nombre" id="nameInput" required><br>
+
+	  <label for="apellido">Apellido <span><em>(requerido)</em></span></label>
+	  <input type="text" name="apellido" id="lastNameInput" required><br>
+
+	  <label for="email">Email <span><em>(requerido)</em></span></label>
+	  <input type="text" name="email" id="emailInput" required><br>
+	  	<input type="submit" name="btn" value="Enviar">
+
+	</form>
+	
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
